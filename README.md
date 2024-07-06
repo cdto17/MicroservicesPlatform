@@ -38,6 +38,6 @@ In the screenshots you can see how it works, to see more videos and songs you ca
 William Javier Quilumba Imacana
 https://github.com/JaviQuilumba
 
-####  License :tw-1f4c4: 
+####  License U+1F4C4
 This project is licensed under the (AFL-3.0) License - see the [LICENSE](https://opensource.org/license/afl-3-0-php) file for details.
 
