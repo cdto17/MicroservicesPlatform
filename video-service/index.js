@@ -10,5 +10,5 @@ app.use('/api', songRouter);
 
 app.listen(port, () => {
     console.log(`Microservice running at http://localhost:${port}`);
-    console.log(`http://localhost:8084/api/video/1/play`);
+    console.log(`http://localhost:8094/api/video/1/play`);
 });
