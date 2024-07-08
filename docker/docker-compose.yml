@@ -1,14 +1,14 @@
 version: "3.8"
 services:
   microservice-list:
-   build: ./list-services
+   build: ../list-services
    ports:
      - 8082:3002
   microservice-songs:
-   build: ./songs-service
+   build: ../songs-service
    ports:
      - 8083:3003
   microservice-video:
-   build: ./video-service
+   build: ../video-service
    ports:
      - 8094:3001
