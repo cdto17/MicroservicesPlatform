@@ -3,10 +3,11 @@
 <p>
 The microservices project for a streaming platform tries to simulate a microservices architecture, it has three microservices: list services, song services and video services. Each of these microservices has independent functions such as listing the songs, playing the audio of the songs and videos of the songs. It should be noted that this is just a project, it is just a simulation of microservices.
 Dockerfile and Docker-compose are also used for creating Docker images.
+Git Actions automates the creation of images, uploading them to Docker Hub and then deploying them to EC2.
 </p>
 
 ### How to install and run the project? :wrench:
-Node.js technologies are used with the Express.js framework, as well as Dockerfile and Docker-compose.
+Node.js technologies are used with the Express.js framework, as well as Dockerfile, Docker-compose and AWS EC2.
 The project must first be downloaded or cloned:
 - `git clone https://github.com/cdto17/MicroservicesPlatform.git`
 
@@ -32,7 +33,13 @@ To use the project you must execute the commands described in the previous point
 ![Docker3](https://github.com/cdto17/MicroservicesPlatform/assets/91480354/99b62822-001f-4f63-b6f2-b41cd4e5d5fc)
 ![Docker4](https://github.com/cdto17/MicroservicesPlatform/assets/91480354/743b1331-cc2a-40ce-bf30-d0b2220a847e)
 
-In the screenshots you can see how it works, to see more videos and songs you can change the URL number.
+In the screenshots you can see how it works, to see more videos and songs you can change the URL number. 
+For example for the video microservice:
+http:localhost:8084/api/video/1/play
+http:localhost:8083/api/song/1/play
+
+http:localhost:8084/api/video/2/play
+http:localhost:8083/api/song/2/play
 
 ###  Collaborators :boy:
 William Javier Quilumba Imacana
