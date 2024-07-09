@@ -3,11 +3,11 @@
 <p>
 The microservices project for a streaming platform tries to simulate a microservices architecture, it has three microservices: list services, song services and video services. Each of these microservices has independent functions such as:
 
--List the songs: get a list in Json format of the songs with their attributes.
+- List the songs: get a list in Json format of the songs with their attributes.
 
--Playing the audio of songs: allows you to listen to only the audio of the songs that exist.
+- Playing the audio of songs: allows you to listen to only the audio of the songs that exist.
 
--Song videos: allows you to play the video of the existing songs.
+- Song videos: allows you to play the video of the existing songs.
 
 It should be noted that this is just a microservices project.
 Dockerfile and Docker-compose are also used to create Docker images.
