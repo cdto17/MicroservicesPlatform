@@ -35,6 +35,7 @@ To use the project you must execute the commands described in the previous point
 
 In the screenshots you can see how it works, to see more videos and songs you can change the URL number. 
 For example for the video microservice:
+
 http:localhost:8084/api/video/1/play
 
 http:localhost:8083/api/song/1/play
